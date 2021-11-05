@@ -7,6 +7,17 @@ import Welcome from "./Welcome";
 export default function Home({ API_DATA }) {
   // console.log(API_DATA);
 
+  function sortByProperty(property) {
+    return function (a, b) {
+      if (a[property] > b[property]) return 1;
+      else if (a[property] < b[property]) return -1;
+
+      return 0;
+    };
+  }
+
+  API_DATA.sort(sortByProperty("title"));
+
   return (
     <>
       <Welcome />
