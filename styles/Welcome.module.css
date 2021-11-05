@@ -1,0 +1,9 @@
+.heading {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  color: cornflowerblue;
+  padding: 10px 0;
+  font-family: Poppins, sans-serif;
+  height: 10vh;
+}

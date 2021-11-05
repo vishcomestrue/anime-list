@@ -1,9 +1,31 @@
+@font-face {
+  font-family: Poppins;
+  src: url('../assets/fonts/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('../assets/fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: Zen Antique;
+  src: url('../assets/fonts/ZenAntique-Regular.ttf');
+}
+@font-face {
+  font-family: Zen Kurenaido;
+  src: url('../assets/fonts/ZenKurenaido-Regular.ttf');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #0f0f0f;
+  color: white;
+  overflow-x: hidden;
 }
 
 a {

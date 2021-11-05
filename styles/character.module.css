@@ -1,0 +1,53 @@
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enclosure {
+  color: cornflowerblue;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  justify-content: space-evenly;
+  min-height: 90vh;
+}
+
+.renderImage {
+  aspect-ratio: 640/960;
+  width: 350px;
+}
+
+.content {
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.content h1 {
+  color: goldenrod;
+  font-family: Zen Kurenaido, sans-serif;
+}
+
+.content p {
+  text-align: justify;
+  text-align-last: center;
+  font-size: 1.25rem;
+  color: white;
+  font-family: Montserrat, san-serif;
+}
+
+.dateAirings {
+  margin-top: 25px;
+  color: sienna;
+  justify-content: space-evenly;
+  width: 100%;
+  font-family: Zen Antique, sans-serif;
+  font-size: 1.05rem;
+}
+
+.status {
+  margin-top: 25px;
+  color: aqua;
+  font-size: 1.075rem;
+  text-transform: capitalize;
+}
