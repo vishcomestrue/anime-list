@@ -11,8 +11,7 @@ export default function Home({ API_DATA }) {
     return function (a, b) {
       if (a[property] > b[property]) return 1;
       else if (a[property] < b[property]) return -1;
-
-      return 0;
+      else return 0;
     };
   }
 
